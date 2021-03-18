@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className='container'>
-      <h1>Welcome to Nasa Gallery</h1>
+      <h1><span role="img" aria-label='go!'>🚀</span> Welcome to Nasa Gallery <span role="img" aria-label='go!'>🚀</span></h1>
         <div>
           <PhotoCard data={nasadata}/>
         </div>
